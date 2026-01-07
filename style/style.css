@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* For Open Sanse font */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Commonly used css */
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid red;     
+}
+
+.btn{
+    font-size: 20px;
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/*  Header Section */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav h2{
+    font-size: 45px;
+}
+
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+   display: inline;
+   font-size: 20px; 
+   color: #474747;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+
+/* Start Body */
